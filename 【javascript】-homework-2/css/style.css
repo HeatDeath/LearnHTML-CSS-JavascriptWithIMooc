@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: "Microsoft YaHei";
+}
+
+.main{
+  width: 1200px;
+  height: 460px;
+  margin: 30px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner{
+  width: 1200px;
+  height: 460px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-slide{
+  width: 1200px;
+  height: 460px;
+  background-repeat: no-repeat;
+  float: left;
+  display: none;
+}
+
+.slide-active{
+  display: block;
+}
+
+.slide1{
+  background-image: url(img/1.jpg);
+}
+
+.slide2{
+  background-image: url(img/2.jpg);
+}
+
+.slide3{
+  background-image: url(img/3.jpg);
+}
+
+.slide4{
+  background-image: url(img/4.jpg);
+}
+
+.tags{
+  position: absolute;
+  width: 1200px;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.tags>span{
+  display: block;
+  float: left;
+  width: 296px;
+  height: 50px;
+  font-size: 22px; 
+  font-weight: bold; 
+  line-height: 50px;
+  color: #666;
+  cursor: pointer;
+  text-align: center;
+  padding: 2px;
+}
+
+.tags>span.active{
+  background-color: #ffcc00;
+  padding: 0;
+  border: 2px solid #ffcc00;
+  border-radius: 15% ;
+}

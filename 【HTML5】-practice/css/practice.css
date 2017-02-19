@@ -1,0 +1,51 @@
+/*All tag*/
+*{font-family: Arial;font-size: 14px;margin: 0;padding: 0;border: none;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+/*header*/
+header{position: relative;height: 80px;background: #000;}
+header > .container{width: 1200px;margin: 0 auto;}
+header > .container >a{font-size: 27px;color: #fff;display: block;float: left;line-height: 80px;margin: 5px 25px;}
+
+/*nav*/
+nav{float: right;}
+nav > a{font-size: 24px;line-height: 73px;display: block;float: left;width: 110px;height: 73px;text-align: center;color: #fff;}
+nav > .Home{background: #d40112;}
+nav > .Course{background: #feb800;}
+nav > .Actual{background: #78b917;}
+nav > .Plan{background: #433b90;}
+nav > .FAQ{background: #f27c01;}
+nav > .Notes{background: #017fcb;}
+nav > a:hover,
+nav > .active{padding-bottom: 7px;}
+
+/*banner*/
+.banner{position: relative;background: #eaeaea;}
+.banner > ul {position: relative;width: 1490;height: 538px;margin: 0 auto;padding-top: 10px;}
+.banner > ul >li {position: absolute;width: 610px;height: 300px;overflow: hidden;}
+.banner > ul >li.active {z-index: 2;top: 37px;right: 0;left: 0;width: 960px;height: 460px;margin: auto;border: 1px solid #fff;}
+.banner > ul >li.left {z-index: 1;top: 0;bottom: 0;left: 0;margin: auto;}
+.banner > ul >li.right {z-index: 1;top: 0;right: 0;bottom: 0;margin: auto;}
+.banner > ul >li >img {position: absolute;left: -30%;height: 100%;}
+
+/*main*/
+.main {position: relative;width: 1200px;height: 473px;margin: 34px auto 0;}
+.main h1{font-size: 30px;font-weight: lighter;margin-bottom: 23px;}
+.main h1 >samp {font-size: 30px;color: #7c7c7c;}
+.main > aside {float: left;width: 450px;}
+.main > aside > dl {position: relative;display: block;height: 74px;margin-bottom: 17px;}
+.main > aside > dl > dt {position: absolute;top: -1px;left: 92px;font-size: 16px;font-weight: bold;line-height: 16px;text-decoration: underline;}
+.main > aside > dl > dd:first-of-type {position: absolute;left: 0;font-size: 30px;font-weight: bold;line-height: 50px;display: block;color: white;width: 50px;height: 50px;background-image: url(http://climg.mukewang.com/582e61290001787900500051.png);}
+.main > aside > dl > dd:last-of-type {position: absolute;top: 20px;left: 90px;}
+.main > article {float: right;width: 720px;overflow: hidden;}
+.main > article > p,
+.main > article > img {margin-bottom: 20px;}
+
+/*footer*/
+footer {position:relative;background:#000;}
+footer > .container {width:1200px;height:64px;margin:0 auto;}
+footer > .container > p {line-height: 64px;float: left;color: #fff;}
+footer > .container > span {float:right;margin: 14px 40px;}
+footer > .container > span > img {margin-left: 4px;opacity: .7;}
+footer > .container > span > img:hover{opacity: 1;cursor: pointer;}

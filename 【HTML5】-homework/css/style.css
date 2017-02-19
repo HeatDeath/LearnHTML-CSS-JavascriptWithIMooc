@@ -1,0 +1,306 @@
+/*All tags*/
+*{
+	font-family: Microsoft YaHei UI;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*input{
+	border:1px soild #2e2e2e;
+}*/
+/*header*/
+header{
+	position:relative;
+	height: 80px;
+	background: #2e2e2e;
+}
+header > .container {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header > .container > a {
+	display: block;
+	float: left;
+	margin: 5px 25px;
+	line-height: 80px;
+}
+header > .container > nav {
+	float: right;
+}
+
+/*header > nav*/
+header > .container > nav > a {
+	line-height: 80px;
+	display: block;
+	float: left;
+	width: 110px;
+	height: 80px;
+	text-align: center;
+	color: #fff;
+}
+
+header > .container > nav > a:hover{
+	background-color: red;
+	color: black;
+	font-weight: bold;
+}
+
+/*banner*/
+.banner {
+	position: relative;	
+	height: 670px;
+	overflow: hidden;
+}
+
+.banner > img {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+}
+
+.banner > .container {
+	position: absolute;
+	color: #fff;
+	width: 1200px;
+	text-align: center;
+	top: 278px;
+	left: 50%;
+	margin-left: -600px;
+}
+
+.banner > .container > h1 {	
+	font-size: 48px;	
+}
+
+/*portfolio*/
+.portfolio {
+	position: relative;
+	height: 826px;
+	overflow: hidden;
+}
+
+.portfolio > .container {
+	position: absolute;
+	height: 496px;
+	color: #f46208;
+	width: 1200px;
+	text-align: center;
+	top: 96px;
+	left: 50%;
+	margin-left: -600px;
+	overflow: hidden;
+}
+
+.portfolio > .container > h1 {
+	font-size: 48px;
+	margin-bottom: 15px;
+}
+
+.portfolio > .container > p {
+	font-size: 14px;
+	color: #2e2e2e;
+	margin-bottom: 30px;
+}
+
+/*portfolio > nav*/
+.portfolio > .container > nav > a {
+	border: 1px solid #f46208;
+	color: #f46208;
+	font-size: 24px;
+	margin-left: 5px;
+	padding: auto 5px;
+}
+
+.portfolio > .container > nav > a:hover {
+	background-color: #666666;
+}
+
+.portfolio > img {
+	position: absolute;
+	top: 320px;
+	width: 100%;
+}
+
+
+/*Stats*/
+.stats {
+	position: relative;
+	height: 496px;
+}
+
+/*stats>hgroup*/
+.stats > hgroup {
+	position: absolute;
+	color: #f46208;
+	width: 1200px;
+	text-align: center;
+	top: 96px;
+	left: 50%;
+	margin-left: -600px;
+}
+
+.stats > hgroup > h1 {
+	font-size: 48px;
+	margin-bottom: 15px;
+}
+
+.stats > hgroup > p {
+	font-size: 14px;
+	color: #2e2e2e;
+	margin-bottom: 30px;
+}
+
+/*stats > s_pic*/
+.stats > .s_pic {	
+	position: absolute;
+	top: 212px;
+	height: 160px;
+	left: 50%;
+	margin-left: -600px;
+}
+
+.stats > .s_pic > dl {
+	width: 300px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+.stats > .s_pic > dl > dt,
+.stats > .s_pic > dl > dd {
+	margin-bottom: 20px;
+}
+
+.stats > .s_pic > dl > dd:last-of-type {
+	color: #f46208;
+	font-size: 48px;
+}
+
+/*team*/
+.team {
+	position: relative;
+	height: 592px;
+	background-color: #2e2e2e;
+	overflow: hidden;
+}
+
+.team > .container {
+	position: absolute;
+	height: 110px;
+	color: #f46208;
+	width: 1200px;
+	text-align: center;
+	top: 96px;
+	left: 50%;
+	margin-left: -600px;
+	overflow: hidden;
+}
+
+.team > .container > h1 {
+	font-size: 48px;
+	margin-bottom: 15px;
+}
+
+.team > .container > p {
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.team > .teacher {	
+	height: 320px;
+	left: 50%;
+	margin-left: -600px;
+	position: absolute;
+	top: 212px;
+}
+
+.team > .teacher > dl {
+	width: 400px;
+	height: 200px;
+	color: #fff;
+	float: left;
+	text-align: center;
+}
+
+/*contact_us*/
+.contact_us {
+	position: relative;
+	height: 592px;
+	overflow: hidden;
+}
+
+.contact_us > .container {
+	position: absolute;
+	height: 110px;
+	color: #f46208;
+	width: 1200px;
+	text-align: center;
+	top: 96px;
+	left: 50%;
+	margin-left: -600px;
+	overflow: hidden;
+}
+
+.contact_us > .container > h1 {
+	font-size: 48px;
+	margin-bottom: 15px;
+}
+
+.contact_us > .container > p {
+	font-size: 14px;
+	color: #2e2e2e;
+	margin-bottom: 30px;
+}
+
+.contact_us > .your {
+	position: absolute;
+	width: 1200px;
+	top: 212px;
+	height: 240px;
+	left: 50%;
+	margin-left: -600px;
+	text-align: center;
+}
+
+.contact_us > .your > .first,
+.contact_us > .your > .second{
+	margin-bottom: 5px;
+}
+
+.contact_us > .your > .second > input {
+	width: 342px;
+	height: 200px;
+}
+.contact_us > .your > input {
+	color: #fff;
+	background-color: #f46208;
+	padding: 10px 5px;
+}
+
+/*footer*/
+footer {
+	position: relative;
+	height: 64px;
+	background-color: #000;
+	overflow: hidden;
+}
+
+footer > .container {
+	position: absolute;
+	height: 20px;
+	color: #fff;
+	width: 1200px;
+	text-align: center;
+	top: 22px;
+	left: 50%;
+	margin-left: -600px;
+	overflow: hidden;
+}
